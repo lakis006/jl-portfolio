@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514e;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; /*16px = 100% = 1em */
+    color: #66BFBF;
+    padding: 12px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.h2-tag {
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+    font: bold;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.topContainer {
+    position: relative;
+    padding-top: 100px;
+    background-color: #eaf6f6;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+
+.top-cloud {
+   position: absolute; 
+   right: 300px;
+   top: 50px;
+}
+
+
+.pro-img {
+    height: 200px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.dev {
+   width: 25%; 
+   float: left;
+   margin-right: 30px;
+   color: #11999e;
+}
+
+
+
+.flip-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    color: #11999e;
+}
+
+.description {
+    color: #40514e;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.my-description {
+    color: #40514e;
+    width: 25%;
+    position: relative;
+    margin: 50px 38% 50px auto;
+    
+}
+
+.contact-me {
+    padding: 50px;
+}
+
+.contact-message {
+    margin-bottom: 100px;
+}
+
+.btn {
+	box-shadow: 3px 4px 0px 0px #66BFBF;
+	background:linear-gradient(to bottom, #66BFBF 5%, #66BFBF 100%);
+	background-color:#66BFBF;
+	border-radius:5px;
+	border:1px solid #66BFBF;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #66BFBF;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.footer-link {
+    margin-right: 50px;
+    color: #11999E;
+}
+
+.tag-bottom {
+    margin: 50px 20px auto auto;
+    color: #eaf6f6;
+}
